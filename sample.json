@@ -1,0 +1,65 @@
+[
+  {
+    "spec": "empty spec",
+    "name": "empty spec performs a sum that will result in flake ~50% of the time",
+    "duration": "0.66",
+    "passCount": 6,
+    "failCount": 3,
+    "flakeScore": "0.33",
+    "health": "Unhealthy"
+  },
+  {
+    "spec": "empty spec",
+    "name": "empty spec is a test that fails around 25% of the time",
+    "duration": "0.68",
+    "passCount": 6,
+    "failCount": 3,
+    "flakeScore": "0.19",
+    "health": "Unhealthy"
+  },
+  {
+    "spec": "empty spec",
+    "name": "empty spec is a test that passes",
+    "duration": "1.08",
+    "passCount": 9,
+    "failCount": 0,
+    "flakeScore": "0.00",
+    "health": "Healthy"
+  },
+  {
+    "spec": "empty spec",
+    "name": "empty spec performs a sum that always passes",
+    "duration": "1.07",
+    "passCount": 9,
+    "failCount": 0,
+    "flakeScore": "0.00",
+    "health": "Healthy"
+  },
+  {
+    "spec": "empty spec",
+    "name": "empty spec is a test that passes v2",
+    "duration": "1.04",
+    "passCount": 9,
+    "failCount": 0,
+    "flakeScore": "0.00",
+    "health": "Healthy"
+  },
+  {
+    "spec": "empty spec",
+    "name": "empty spec loads the homepage",
+    "duration": "0.57",
+    "passCount": 9,
+    "failCount": 0,
+    "flakeScore": "0.00",
+    "health": "Healthy"
+  },
+  {
+    "spec": "empty spec",
+    "name": "empty spec performs a sum that always fails",
+    "duration": "0.00",
+    "passCount": 0,
+    "failCount": 9,
+    "flakeScore": "0.00",
+    "health": "Unhealthy"
+  }
+]

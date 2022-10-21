@@ -1,0 +1,77 @@
+<style>
+  table {border: 1px solid black}
+</style>
+<table id="tablify" class="tablify" border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th>spec</th>
+    <th>name</th>
+    <th>duration</th>
+    <th>passCount</th>
+    <th>failCount</th>
+    <th>flakeScore</th>
+    <th>health</th>
+  </tr>
+  <tr>
+    <td style="white; text-align: center"> empty spec </td>
+    <td style="white; text-align: center"> empty spec performs a sum that will result in flake ~50% of the time </td>
+    <td style="white; text-align: center"> 0.66 </td>
+    <td style="white; text-align: center"> 6 </td>
+    <td style="white; text-align: center"> 3 </td>
+    <td style="white; text-align: center"> 0.33 </td>
+    <td style="background-color: #ffe6e6; text-align: center"> Unhealthy </td>
+  </tr>
+  <tr>
+    <td style="white; text-align: center"> empty spec </td>
+    <td style="white; text-align: center"> empty spec is a test that fails around 25% of the time </td>
+    <td style="white; text-align: center"> 0.68 </td>
+    <td style="white; text-align: center"> 6 </td>
+    <td style="white; text-align: center"> 3 </td>
+    <td style="white; text-align: center"> 0.19 </td>
+    <td style="background-color: #ffe6e6; text-align: center"> Unhealthy </td>
+  </tr>
+  <tr>
+    <td style="white; text-align: center"> empty spec </td>
+    <td style="white; text-align: center"> empty spec is a test that passes </td>
+    <td style="white; text-align: center"> 1.08 </td>
+    <td style="white; text-align: center"> 9 </td>
+    <td style="white; text-align: center"> 0 </td>
+    <td style="white; text-align: center"> 0.00 </td>
+    <td style="background-color: #e6ffe6; text-align: center"> Healthy </td>
+  </tr>
+  <tr>
+    <td style="white; text-align: center"> empty spec </td>
+    <td style="white; text-align: center"> empty spec performs a sum that always passes </td>
+    <td style="white; text-align: center"> 1.07 </td>
+    <td style="white; text-align: center"> 9 </td>
+    <td style="white; text-align: center"> 0 </td>
+    <td style="white; text-align: center"> 0.00 </td>
+    <td style="background-color: #e6ffe6; text-align: center"> Healthy </td>
+  </tr>
+  <tr>
+    <td style="white; text-align: center"> empty spec </td>
+    <td style="white; text-align: center"> empty spec is a test that passes v2 </td>
+    <td style="white; text-align: center"> 1.04 </td>
+    <td style="white; text-align: center"> 9 </td>
+    <td style="white; text-align: center"> 0 </td>
+    <td style="white; text-align: center"> 0.00 </td>
+    <td style="background-color: #e6ffe6; text-align: center"> Healthy </td>
+  </tr>
+  <tr>
+    <td style="white; text-align: center"> empty spec </td>
+    <td style="white; text-align: center"> empty spec loads the homepage </td>
+    <td style="white; text-align: center"> 0.57 </td>
+    <td style="white; text-align: center"> 9 </td>
+    <td style="white; text-align: center"> 0 </td>
+    <td style="white; text-align: center"> 0.00 </td>
+    <td style="background-color: #e6ffe6; text-align: center"> Healthy </td>
+  </tr>
+  <tr>
+    <td style="white; text-align: center"> empty spec </td>
+    <td style="white; text-align: center"> empty spec performs a sum that always fails </td>
+    <td style="white; text-align: center"> 0.00 </td>
+    <td style="white; text-align: center"> 0 </td>
+    <td style="white; text-align: center"> 9 </td>
+    <td style="white; text-align: center"> 0.00 </td>
+    <td style="background-color: #ffe6e6; text-align: center"> Unhealthy </td>
+  </tr>
+</table>

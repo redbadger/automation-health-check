@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.991" tests="7" failures="2">
+  <testsuite name="Root Suite" timestamp="2022-10-14T11:20:01" tests="0" file="cypress/e2e/spec.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="empty spec" timestamp="2022-10-14T11:20:01" tests="7" time="14.960" failures="2">
+    <testcase name="empty spec loads the homepage" time="0.569" classname="loads the homepage">
+    </testcase>
+    <testcase name="empty spec performs a sum that always passes" time="1.126" classname="performs a sum that always passes">
+    </testcase>
+    <testcase name="empty spec performs a sum that will result in flake ~50% of the time" time="0.975" classname="performs a sum that will result in flake ~50% of the time">
+    </testcase>
+    <testcase name="empty spec performs a sum that always fails" time="0.000" classname="performs a sum that always fails">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;div.CalculationResult&gt;&apos; to have text &apos;0&apos;, but the text was &apos;-5&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<div.CalculationResult>' to have text '0', but the text was '-5'
+    at Context.eval (webpack:///./cypress/e2e/spec.cy.js:41:42)
+
+      + expected - actual
+
+      -'-5'
+      +'0'
+      ]]></failure>
+    </testcase>
+    <testcase name="empty spec is a test that passes" time="0.986" classname="is a test that passes">
+    </testcase>
+    <testcase name="empty spec is a test that passes v2" time="1.003" classname="is a test that passes v2">
+    </testcase>
+    <testcase name="empty spec is a test that fails around 25% of the time" time="0.000" classname="is a test that fails around 25% of the time">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;div.CalculationResult&gt;&apos; to contain text &apos;-&apos;, but the text was &apos;0&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<div.CalculationResult>' to contain text '-', but the text was '0'
+    at Context.eval (webpack:///./cypress/e2e/spec.cy.js:66:42)
+
+      + expected - actual
+
+      -'0'
+      +'-'
+      ]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
