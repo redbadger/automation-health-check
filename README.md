@@ -36,3 +36,8 @@ A flaky test is a test that has fluctuated between a pass and fail state at any 
     Amend the "directoryPath" in "index.js" from "sampleFiles" to "files"
 
     Run: node app.js in the command line
+    
+    
+## Output
+
+<img width="1188" alt="Screenshot 2022-10-21 at 11 11 42" src="https://user-images.githubusercontent.com/20296527/197172323-15a190ba-3f34-4981-9559-88533c0a7979.png">
